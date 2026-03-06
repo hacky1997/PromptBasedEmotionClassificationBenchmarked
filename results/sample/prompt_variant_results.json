@@ -1,0 +1,19 @@
+{
+  "template_A": {
+    "prompt": "The emotion of the following sentence is: ",
+    "accuracy": 0.926, "macro_f1": 0.8829
+  },
+  "template_B": {
+    "prompt": "Classify the emotion expressed: ",
+    "accuracy": 0.926, "macro_f1": 0.8831
+  },
+  "template_C": {
+    "prompt": "This text expresses the following emotion: ",
+    "accuracy": 0.924, "macro_f1": 0.8793
+  },
+  "mcnemar_pairwise": {
+    "A_vs_B": {"chi2": 0.0172, "p_value": 0.8955, "significant": false},
+    "A_vs_C": {"chi2": 0.18,   "p_value": 0.6714, "significant": false},
+    "B_vs_C": {"chi2": 0.25,   "p_value": 0.6171, "significant": false}
+  }
+}

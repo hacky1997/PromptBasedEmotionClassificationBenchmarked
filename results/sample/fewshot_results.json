@@ -1,0 +1,23 @@
+{
+  "16": {
+    "k_shot": 16,
+    "train_size": 96,
+    "accuracy": 0.3165,
+    "macro_f1": 0.2501,
+    "weighted_f1": 0.2951
+  },
+  "64": {
+    "k_shot": 64,
+    "train_size": 384,
+    "accuracy": 0.674,
+    "macro_f1": 0.6223,
+    "weighted_f1": 0.688
+  },
+  "256": {
+    "k_shot": 256,
+    "train_size": 1536,
+    "accuracy": 0.859,
+    "macro_f1": 0.8237,
+    "weighted_f1": 0.8636
+  }
+}

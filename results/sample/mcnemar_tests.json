@@ -1,0 +1,26 @@
+{
+  "DistilBERT": {
+    "prompt_acc": 0.9270,
+    "noprompt_acc": 0.9250,
+    "delta_acc": 0.002,
+    "chi2": 0.1,
+    "p_value": 0.7518,
+    "significant": false
+  },
+  "DistilRoBERTa": {
+    "prompt_acc": 0.9260,
+    "noprompt_acc": 0.9225,
+    "delta_acc": 0.0035,
+    "chi2": 0.6545,
+    "p_value": 0.4185,
+    "significant": false
+  },
+  "ELECTRA-base": {
+    "prompt_acc": 0.9330,
+    "noprompt_acc": 0.9215,
+    "delta_acc": 0.0115,
+    "chi2": 4.9897,
+    "p_value": 0.0255,
+    "significant": true
+  }
+}

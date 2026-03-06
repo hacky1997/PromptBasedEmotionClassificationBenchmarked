@@ -1,0 +1,42 @@
+{
+  "ELECTRA-base_prompt": {
+    "accuracy_mean": 0.9267,
+    "accuracy_std": 0.0027,
+    "macro_f1_mean": 0.882,
+    "macro_f1_std": 0.0017,
+    "seeds": [42, 2024, 7],
+    "per_seed_accuracy": {"42": 0.9265, "2024": 0.9235, "7": 0.93}
+  },
+  "RoBERTa-base_prompt": {
+    "accuracy_mean": 0.9277,
+    "accuracy_std": 0.0027,
+    "macro_f1_mean": 0.8867,
+    "macro_f1_std": 0.005,
+    "seeds": [42, 2024, 7],
+    "per_seed_accuracy": {"42": 0.926, "2024": 0.9315, "7": 0.9255}
+  },
+  "DistilRoBERTa_prompt": {
+    "accuracy_mean": 0.9288,
+    "accuracy_std": 0.003,
+    "macro_f1_mean": 0.8869,
+    "macro_f1_std": 0.0034,
+    "seeds": [42, 2024, 7],
+    "per_seed_accuracy": {"42": 0.927, "2024": 0.9265, "7": 0.933}
+  },
+  "DistilBERT_prompt": {
+    "accuracy_mean": 0.929,
+    "accuracy_std": 0.004,
+    "macro_f1_mean": 0.8864,
+    "macro_f1_std": 0.0107,
+    "seeds": [42, 2024, 7],
+    "per_seed_accuracy": {"42": 0.924, "2024": 0.932, "7": 0.931}
+  },
+  "DistilRoBERTa_noprompt": {
+    "accuracy_mean": 0.9253,
+    "accuracy_std": 0.0041,
+    "macro_f1_mean": 0.8827,
+    "macro_f1_std": 0.0055,
+    "seeds": [42, 2024, 7],
+    "per_seed_accuracy": {"42": 0.9195, "2024": 0.928, "7": 0.9285}
+  }
+}

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software or results, please cite it as below."
+
+title: "Prompt-Based Emotion Classification with Efficient Transformers"
+type: software
+
+authors:
+  - family-names: Gayen
+    given-names: Avijit
+    affiliation: "IIIT Guwahati / Techno India University"
+    email: avijit.gayen@iiitg.ac.in
+  - family-names: Naskar
+    given-names: Sayak
+    affiliation: "IIIT Guwahati"
+    email: sayak.naskar25m@iiitg.ac.in
+  - family-names: Mishra
+    given-names: Shilpi
+    affiliation: "Techno India University"
+  - family-names: Jana
+    given-names: Angshuman
+    affiliation: "IIIT Guwahati"
+    email: angshuman@iiitg.ac.in
+
+repository-code: "https://github.com/YOUR_USERNAME/emotion-classification"
+url: "https://arxiv.org/abs/XXXX.XXXXX"
+license: MIT
+year: 2025
+
+abstract: >
+  A systematic study of prompt-based emotion classification across six emotion
+  categories using five efficient transformer encoders (DistilBERT, DistilRoBERTa,
+  RoBERTa-base, ALBERT-base-v2, ELECTRA-base) on the SetFit/emotion dataset.
+  The study includes prompt ablation with McNemar significance tests, multi-seed
+  robustness with bootstrap confidence intervals, minority-class rebalancing,
+  parameter-efficient prefix-tuning, few-shot evaluation, and zero-shot
+  cross-domain generalisation on GoEmotions and MELD.
+
+keywords:
+  - emotion classification
+  - prompt engineering
+  - transformer
+  - ELECTRA
+  - DistilBERT
+  - affective computing
+  - few-shot learning
+  - cross-domain generalisation

@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Prompt-Based Emotion Classification — Python Dependencies
+#
+# Tested on: Python 3.10, Google Colab (NVIDIA T4, CUDA 12.x)
+# Install:   pip install -r requirements.txt
+#
+# Note: For Google Colab, Cell 1 of the notebook handles installation
+# automatically with these exact version pins. Running pip install here
+# is only needed for local / HPC setups.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core NLP / ML ─────────────────────────────────────────────────────────────
+transformers==4.40.2
+accelerate==0.29.3
+datasets==2.19.1
+tokenizers==0.19.1
+huggingface-hub==0.23.0
+
+# ── Deep Learning ─────────────────────────────────────────────────────────────
+torch>=2.2.0          # GPU build recommended; CPU-only also works (much slower)
+
+# ── Classical ML & Statistics ─────────────────────────────────────────────────
+scikit-learn>=1.4.0
+scipy>=1.13.0
+
+# ── Data & Visualisation ──────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0

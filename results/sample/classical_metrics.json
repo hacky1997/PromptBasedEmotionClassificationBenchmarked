@@ -1,0 +1,18 @@
+{
+  "TF-IDF + LR": {
+    "accuracy": 0.8215,
+    "macro_f1": 0.707,
+    "weighted_f1": 0.8081,
+    "macro_prec": 0.8596,
+    "macro_rec": 0.66,
+    "throughput_sps": 261837.0
+  },
+  "TF-IDF + LinearSVM": {
+    "accuracy": 0.8795,
+    "macro_f1": 0.8173,
+    "weighted_f1": 0.8775,
+    "macro_prec": 0.8375,
+    "macro_rec": 0.8006,
+    "throughput_sps": 1970807.7
+  }
+}
