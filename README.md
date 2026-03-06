@@ -9,11 +9,6 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
-<p align="center">
-  <strong>Avijit Gayen<sup>1,2</sup> · Sayak Naskar<sup>1</sup> · Shilpi Mishra<sup>2</sup> · Angshuman Jana<sup>1</sup></strong><br>
-  <sup>1</sup>Dept. of CSE, IIIT Guwahati &nbsp;|&nbsp; <sup>2</sup>Dept. of CSE, Techno India University
-</p>
-
 ---
 
 ## Overview
